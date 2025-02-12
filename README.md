@@ -8,6 +8,7 @@ USER-APPLICATION-HONEYCOMB is a Python-based application designed to **fetch, ma
 - **Event Processing**: Listens to MQTT events from ChirpStack and decodes device payloads.
 - **Automatic Updates**: A scheduler ensures newly added devices are fetched periodically.
 - **Modular Design**: Well-structured code for better maintainability.
+- **Asymmetric Ciphering Support**: Supports **ECDH ciphering** for secure encryption and decryption of device data.
 
 ---
 
@@ -147,6 +148,4 @@ This project is licensed under the **MIT License**.
 
 ## **👨‍💻 Contributing**
 Pull requests are welcome! Open an issue for discussions.
-```
-
 
